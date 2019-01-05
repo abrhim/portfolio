@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Top from './components/Top'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+
+        <Top />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
 
-          This is my portfolio website. Behold, I am Abram. The Software Engineer.
+          This is my portfolio website. Behold, I am Abram. The software engineer.
           <a
             className="App-link"
             href="https://reactjs.org"

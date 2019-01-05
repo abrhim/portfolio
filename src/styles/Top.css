@@ -1,0 +1,14 @@
+.Top {
+    height: 100vh;
+    background-color: #4C5364;
+
+}
+
+.Top.HeroText{
+    color: white;
+    vertical-align: middle;
+}
+
+.Top.MyName{
+    color: #C0696A;
+}
